@@ -1,0 +1,82 @@
+# Drupal 11 Project .gitignore
+
+# Ignore dependencies that are managed with Composer
+/vendor/
+
+# Ignore core when managing all of a project's dependencies with Composer
+# including Drupal core
+web/core/
+
+# Ignore configuration files that may contain sensitive information
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+
+# Ignore paths that contain user-generated content
+# web/sites/*/files
+# web/sites/*/private
+
+# Ignore multi-site test environment
+web/sites/simpletest
+
+# Ignore temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore log files
+*.log
+web/sites/*/logs/
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore node_modules if using npm/yarn for frontend assets
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore compiled assets (if using build tools)
+web/themes/*/css/
+web/themes/*/js/
+web/themes/*/dist/
+web/themes/*/build/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore database dumps
+*.sql
+*.sql.gz
+
+# Ignore patch files (unless specifically needed)
+*.patch
+*.diff
+
+# Ignore composer cache
+composer.phar
+
+# Ignore PHPUnit cache
+.phpunit.result.cache
+
+# Ignore Drush cache
+.drush/
+
+# Ignore Xdebug profiler output
+*.cachegrind
+*.prof
+
+# Ignore local development files
+web/sites/development.services.yml.local
+web/sites/example.settings.local.php
