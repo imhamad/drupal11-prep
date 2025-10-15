@@ -57,8 +57,8 @@ web/themes/*/build/
 .env.*.local
 
 # Ignore database dumps
-*.sql
-*.sql.gz
+# *.sql
+# *.sql.gz
 
 # Ignore patch files (unless specifically needed)
 *.patch
