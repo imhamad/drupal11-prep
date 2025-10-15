@@ -18,6 +18,9 @@ web/sites/*/services*.yml
 # Ignore multi-site test environment
 web/sites/simpletest
 
+#ignore default file
+# /web/sites/default/default.settings.php
+
 # Ignore temporary files
 *.tmp
 *.temp
@@ -67,6 +70,10 @@ web/themes/*/build/
 # Ignore composer cache
 composer.phar
 
+web/sites/default/files/translations/
+/web/sites/*/tmp
+/web/sites/*/cache
+
 # Ignore PHPUnit cache
 .phpunit.result.cache
 
@@ -80,3 +87,13 @@ composer.phar
 # Ignore local development files
 web/sites/development.services.yml.local
 web/sites/example.settings.local.php
+web/sites/*/settings*.php
+
+# Ignore local development files
+web/sites/development.services.yml.local
+web/sites/example.settings.local.php
+web/sites/default/files/js/
+web/sites/default/files/php/
+web/sites/default/files/css/
+web/sites/default/files/css/
+web/sites/default/default.settings.php
