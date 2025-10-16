@@ -10,7 +10,7 @@ web/core/
 # Ignore contrib modules and themes (managed by Composer)
 web/modules/contrib/
 web/themes/contrib/
-web/profiles/contrib/
+web/profiles/contrib/   
 
 # Ignore configuration files that may contain sensitive information
 web/sites/*/settings*.php
