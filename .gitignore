@@ -7,6 +7,11 @@
 # including Drupal core
 web/core/
 
+# Ignore contrib modules and themes (managed by Composer)
+web/modules/contrib/
+web/themes/contrib/
+web/profiles/contrib/   
+
 # Ignore configuration files that may contain sensitive information
 web/sites/*/settings*.php
 web/sites/*/services*.yml
@@ -70,9 +75,9 @@ web/themes/*/build/
 # Ignore composer cache
 composer.phar
 
-web/sites/default/files/translations/
-/web/sites/*/tmp
-/web/sites/*/cache
+# Ignore temporary and cache directories
+web/sites/*/tmp
+web/sites/*/cache
 
 # Ignore PHPUnit cache
 .phpunit.result.cache
@@ -89,11 +94,22 @@ web/sites/development.services.yml.local
 web/sites/example.settings.local.php
 web/sites/*/settings*.php
 
-# Ignore local development files
-web/sites/development.services.yml.local
-web/sites/example.settings.local.php
-web/sites/default/files/js/
-web/sites/default/files/php/
-web/sites/default/files/css/
-web/sites/default/files/css/
+# Ignore only generated/cache files in sites/*/files/
+# Keep user-uploaded content like images, documents, etc.
+
+# Ignore Twig template cache
+web/sites/*/files/php/twig/
+web/sites/*/files/php/twig/**/*.php
+web/sites/*/files/php/twig/**/.htaccess
+
+# Ignore aggregated CSS/JS files
+web/sites/*/files/css/*.css
+web/sites/*/files/css/*.css.gz
+web/sites/*/files/js/*.js
+web/sites/*/files/js/*.js.gz
+
+# Ignore translations cache
+web/sites/*/files/translations/
+
+# Ignore default settings file (keep local settings)
 web/sites/default/default.settings.php
