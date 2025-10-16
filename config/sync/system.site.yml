@@ -1,9 +1,9 @@
 _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
-uuid: b22bd9aa-f36e-4624-a9e1-e165220e8891
-name: drupal11-prep
-mail: example@example.test
+uuid: c57c08bb-82fe-4823-bdee-4356f2801f07
+name: 'Drupal 11 Preps'
+mail: admin@test.com
 slogan: ''
 page:
   403: ''
