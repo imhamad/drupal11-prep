@@ -1,0 +1,22 @@
+uuid: 79b5dc50-1f67-4fb2-a904-6a6ecb39b40a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.department_of_biology
+id: node.department_of_biology.promote
+field_name: promote
+entity_type: node
+bundle: department_of_biology
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

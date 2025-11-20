@@ -1,0 +1,7 @@
+name: 'Book Manager'
+description: 'Manage Books - Demo Module to manage books'
+type: module
+core_version_requirement: ^9 || ^10 || ^11
+package: Custom
+php: 8.2
+dependencies: []

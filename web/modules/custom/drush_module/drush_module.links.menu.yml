@@ -1,0 +1,6 @@
+drush_module.admin_settings:
+  title: Drush Module Admin Settings
+  description: Used for Drush Module
+  parent: system.admin_config_system
+  route_name: drush_module.admin_settings
+  weight: 10

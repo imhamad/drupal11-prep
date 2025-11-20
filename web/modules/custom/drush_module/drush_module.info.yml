@@ -1,0 +1,5 @@
+name: 'Drush Module'
+type: module
+description: 'This Custom module is created using Drush command'
+package: Custom
+core_version_requirement: ^10 || ^11

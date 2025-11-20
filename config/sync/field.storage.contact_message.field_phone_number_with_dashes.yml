@@ -1,0 +1,20 @@
+uuid: 437a4f79-db0b-45bf-8192-1f974bc72889
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_phone_number_with_dashes
+field_name: field_phone_number_with_dashes
+entity_type: contact_message
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

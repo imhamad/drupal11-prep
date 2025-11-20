@@ -1,0 +1,17 @@
+uuid: aac84f9c-aeb2-4959-bbe2-b10a1ddfaadb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Department of Biology'
+type: department_of_biology
+description: 'This will be serving as the topics of Biology'
+help: 'Before you create an article in the Department of Biology, please ensure it is pre-approved through your professor and mention professor name & email in the field required, so we can confirm before approving your article.'
+new_revision: true
+preview_mode: 2
+display_submitted: true

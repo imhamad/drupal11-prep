@@ -1,0 +1,22 @@
+uuid: 28430685-4b99-4dae-b470-1cf201543f12
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.vendor
+id: node.vendor.status
+field_name: status
+entity_type: node
+bundle: vendor
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: a9e9748c-9bd7-4eed-beb8-f39809178d4b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Biology Category'
+vid: biology_category
+description: null
+weight: 0
+new_revision: false

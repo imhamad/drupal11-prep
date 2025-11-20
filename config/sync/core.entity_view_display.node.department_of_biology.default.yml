@@ -1,0 +1,45 @@
+uuid: 19790e49-985b-4a22-b4c8-834711c48dfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.department_of_biology.field_article_after_the_topic
+    - field.field.node.department_of_biology.field_category_of_article
+    - field.field.node.department_of_biology.field_topic_title
+    - node.type.department_of_biology
+  module:
+    - text
+    - user
+id: node.department_of_biology.default
+targetEntityType: node
+bundle: department_of_biology
+mode: default
+content:
+  field_article_after_the_topic:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_category_of_article:
+    type: entity_reference_label
+    label: visually_hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_topic_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

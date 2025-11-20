@@ -1,0 +1,24 @@
+uuid: 3c8fe3a7-fdf6-4d26-8158-329b68ff5f62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_topic_title
+    - filter.format.plain_text
+    - node.type.department_of_biology
+  module:
+    - text
+id: node.department_of_biology.field_topic_title
+field_name: field_topic_title
+entity_type: node
+bundle: department_of_biology
+label: 'Topic Title'
+description: 'Please write actual topic title'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - plain_text
+field_type: text
