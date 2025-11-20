@@ -1,0 +1,23 @@
+uuid: 0864677a-c1d9-438c-a602-e6a4a9c3ec9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - contact
+    - node
+    - toolbar
+id: manager_of_office_digital_dynamite
+label: 'Manager of Office'
+weight: 4
+is_admin: false
+permissions:
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'cancel account'
+  - 'change own username'
+  - 'create article content'
+  - 'delete own article content'
+  - 'edit own article content'

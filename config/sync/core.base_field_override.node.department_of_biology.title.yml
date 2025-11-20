@@ -1,0 +1,18 @@
+uuid: f07c1e6a-8f47-4c5d-9d8b-6ecb881eccf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.department_of_biology
+id: node.department_of_biology.title
+field_name: title
+entity_type: node
+bundle: department_of_biology
+label: 'Brief of the Topic'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

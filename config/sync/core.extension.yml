@@ -8,6 +8,7 @@ module:
   big_pipe: 0
   block: 0
   block_content: 0
+  book_manager: 0
   breakpoint: 0
   ckeditor5: 0
   coffee: 0
@@ -19,6 +20,7 @@ module:
   dblog: 0
   devel: 0
   devel_generate: 0
+  drush_module: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -43,6 +45,7 @@ module:
   taxonomy: 0
   text: 0
   toolbar: 0
+  update: 0
   user: 0
   views_ui: 0
   views: 10

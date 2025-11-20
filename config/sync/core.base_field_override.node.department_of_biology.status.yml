@@ -1,0 +1,22 @@
+uuid: 2dae2522-9258-4c3c-86ee-162137dd90e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.department_of_biology
+id: node.department_of_biology.status
+field_name: status
+entity_type: node
+bundle: department_of_biology
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

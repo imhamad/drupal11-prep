@@ -1,0 +1,14 @@
+uuid: d782672c-a9f1-421d-abee-9ada71348e72
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.students_of_biology
+  module:
+    - user
+id: user_remove_role_action.students_of_biology
+label: 'Remove the Students of Biology role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: students_of_biology
