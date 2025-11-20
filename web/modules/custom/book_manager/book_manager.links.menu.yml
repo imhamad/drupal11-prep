@@ -1,0 +1,6 @@
+book_manager.list_books:
+  title: 'Book Manager'
+  description: 'Manage Books'
+  parent: system.admin_content
+  route_name: book_manager.list
+  weight: 100

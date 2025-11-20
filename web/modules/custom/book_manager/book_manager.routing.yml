@@ -1,0 +1,7 @@
+book_manager.list:
+  path: '/admin/content/book-manager/list'
+  defaults:
+    _controller: '\Drupal\book_manager\Controller\BookListController::list'
+    _title: 'Book Manager'
+  requirements:
+    _permission: 'access book manager'

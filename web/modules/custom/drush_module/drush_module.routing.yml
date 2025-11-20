@@ -1,0 +1,7 @@
+drush_module.admin_settings:
+  path: '/admin/config/system/admin-settings'
+  defaults:
+    _title: 'Drush Module Admin Settings'
+    _form: 'Drupal\drush_module\Form\AdminSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
