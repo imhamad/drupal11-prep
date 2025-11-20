@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - node.type.article
+    - node.type.blogs
     - node.type.page
     - taxonomy.vocabulary.tags
   module:
     - comment
+    - contact
     - contextual
     - file
     - node
@@ -23,20 +25,25 @@ weight: 2
 is_admin: false
 permissions:
   - 'access administration pages'
+  - 'access content'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
   - 'access toolbar'
+  - 'access user contact forms'
   - 'administer url aliases'
   - 'create article content'
+  - 'create blogs content'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any blogs content'
   - 'delete article revisions'
   - 'delete own article content'
   - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'edit any blogs content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'

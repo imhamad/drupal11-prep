@@ -1,0 +1,25 @@
+uuid: 0d0be9d7-44be-48e0-abca-c04c401fcd8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_phone_number_with_dashes
+id: contact_message.personal.field_phone_number_with_dashes
+field_name: field_phone_number_with_dashes
+entity_type: contact_message
+bundle: personal
+label: 'Phone number with dashes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 3159192442
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

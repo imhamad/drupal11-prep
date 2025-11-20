@@ -1,0 +1,29 @@
+uuid: a33fa121-1c8f-439c-bcda-de1a8190507a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category_of_article
+    - node.type.department_of_biology
+    - taxonomy.vocabulary.biology_category
+id: node.department_of_biology.field_category_of_article
+field_name: field_category_of_article
+entity_type: node
+bundle: department_of_biology
+label: 'Category of Article'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      biology_category: biology_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

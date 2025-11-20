@@ -1,0 +1,33 @@
+uuid: 96a445bd-16ed-4a83-b456-6e9dff4330de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.vendor.field_link
+    - node.type.vendor
+  module:
+    - link
+    - user
+id: node.vendor.default
+targetEntityType: node
+bundle: vendor
+mode: default
+content:
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

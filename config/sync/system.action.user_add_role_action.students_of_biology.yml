@@ -1,0 +1,14 @@
+uuid: 0179258a-02e1-4bc8-975e-6ee084424a09
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.students_of_biology
+  module:
+    - user
+id: user_add_role_action.students_of_biology
+label: 'Add the Students of Biology role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: students_of_biology
