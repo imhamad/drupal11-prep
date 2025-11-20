@@ -1,0 +1,25 @@
+uuid: 2efca9cc-604f-4057-a943-c008adc2645a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.blogs
+    - node.type.department_of_biology
+  module:
+    - filter
+    - node
+    - toolbar
+id: students_of_biology
+label: 'Students of Biology'
+weight: 5
+is_admin: false
+permissions:
+  - 'access toolbar'
+  - 'create blogs content'
+  - 'create department_of_biology content'
+  - 'delete own department_of_biology content'
+  - 'edit own department_of_biology content'
+  - 'use text format full_html'
+  - 'use text format restricted_html'

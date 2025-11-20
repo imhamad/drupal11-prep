@@ -1,0 +1,14 @@
+uuid: 635d53cb-36ae-4f6b-9db6-d3c2f2f38897
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.manager_of_office_digital_dynamite
+  module:
+    - user
+id: user_remove_role_action.manager_of_office_digital_dynamite
+label: 'Remove the Manager of Office role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: manager_of_office_digital_dynamite

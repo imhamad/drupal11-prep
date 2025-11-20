@@ -1,0 +1,24 @@
+uuid: 0488759f-b3a9-42d6-aeb4-505d35f44367
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_after_the_topic
+    - filter.format.full_html
+    - node.type.department_of_biology
+  module:
+    - text
+id: node.department_of_biology.field_article_after_the_topic
+field_name: field_article_after_the_topic
+entity_type: node
+bundle: department_of_biology
+label: 'Article after the Topic'
+description: 'Complete Article'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

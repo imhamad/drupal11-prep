@@ -1,0 +1,14 @@
+uuid: 4ce94378-a74a-4d8e-b5b5-c331bf92cd35
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.manager_of_office_digital_dynamite
+  module:
+    - user
+id: user_add_role_action.manager_of_office_digital_dynamite
+label: 'Add the Manager of Office role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: manager_of_office_digital_dynamite

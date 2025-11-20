@@ -1,0 +1,61 @@
+uuid: 8020396e-565c-4035-8e2d-4c4224015673
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.field.contact_message.personal.field_phone_number_with_dashes
+id: contact_message.personal.default
+targetEntityType: contact_message
+bundle: personal
+mode: default
+content:
+  copy:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_phone_number_with_dashes:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 5
+    region: content
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  recipient:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
