@@ -1,0 +1,7 @@
+custom_service.useful:
+  path: '/custom/useful'
+  defaults:
+    _controller: '\Drupal\custom_service\Controller\UsefulController::content'
+    _title: 'Useful Data'
+  requirements:
+    _permission: 'access content'

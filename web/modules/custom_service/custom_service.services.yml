@@ -1,0 +1,5 @@
+services:
+  custom_service.useful_data:
+    class: Drupal\custom_service\Service\UsefulDataService
+    arguments:
+      - '@entity_type.manager'
